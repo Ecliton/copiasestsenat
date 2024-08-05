@@ -4,12 +4,13 @@
 *{
   margin:0;
   padding:0;
+  box-sizing:border-box;
 }
 /*CABEÇA FUNDO*/
 header{
   background-color:#013770;
   width:100%;
-  height:670px;
+  height:700px;
   padding-top:15px;
 }
 /*CABEÇA TÍTULO*/
@@ -87,3 +88,35 @@ header{
   font:600 35px arial;
   color:white;
 }
+.artcor{
+  background-color:white;
+  width:250px;
+  height:230px;
+  border-radius:0px 0px 10px 10px;
+  
+  box-shadow:0px 0px 5px 5px rgba(0,0,0,0.1);
+  margin:20px auto;
+}
+.sctcor{
+  background-color:#0089FB;
+  width:100%;
+  height:5px;
+}
+.legcor{
+  display:flex;
+  justify-content: center;
+  font:13px arial;
+  color:#0089FB;
+}
+.txtcor{
+  display:flex;
+  justify-content:center;
+  margin-top:50px;
+  
+  font:500 17px arial, helvetica, sans-serif;
+}
+.sbmcor{
+  font:15px arial;
+  margin:65px 0px 0px 15px;
+}
+
